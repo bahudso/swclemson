@@ -11,7 +11,6 @@ Router.map(function() {
 	});
 	this.route('legislator', {path: 'legislator/:legislator_id'});
 	this.route('application');
-	this.route('login');
 });
 
 export default Router;
