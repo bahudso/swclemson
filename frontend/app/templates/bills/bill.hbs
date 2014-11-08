@@ -1,0 +1,39 @@
+{{official_title}}
+({{bill_id}})
+<br>
+<u>Chamber:</u> {{chamber}}
+<u>Congress:</u> {{congress}}
+<br>
+{{cosponsors_count}}
+<br>
+History:
+<br>
+{{history.active}}
+{{history.active_at}}
+{{history.awaiting_signature}}
+{{history.enacted}}
+{{history.house_passage_result}}
+{{history.house_passage_result_at}}
+{{history.senate_passage_result}}
+{{history.senate_passage_result_at}}
+{{history.vetoed}}
+<br>
+{{introduced_on}}
+{{last_action_at}}
+{{last_version}}
+{{last_version_on}}
+{{last_vote_at}}
+<br>
+URLS:
+<br>
+{{urls.congress}}
+{{urls.govtrack}}
+{{urls.opencongress}}
+<br>
+<b>
+{{#link-to 'legislator' sponsor_id}}
+	{{sponsor.title}}
+	{{sponsor.first_name}}
+	{{sponsor.last_name}}
+{{/link-to}}
+</b>

@@ -1,0 +1,22 @@
+<h4>House</h4>
+{{model.bills.firstObject}}
+<ul class="list-group">
+{{#each bill in results.bills}}
+	<li class="list-group-item">
+		{{#link-to 'bills.bill' bill.bill_id}}
+			{{bill.official_title}}
+			({{bill.bill_id}})
+		{{/link-to}}
+		<br>
+		<u>Chamber:</u> {{bill.chamber}}
+		<br>
+		<b>
+		{{#link-to 'legislator' bill.sponsor_id}}
+			{{bill.sponsor.title}}
+			{{bill.sponsor.first_name}}
+			{{bill.sponsor.last_name}}
+		{{/link-to}}
+		</b>
+	</li>
+{{/each}}
+</ul>
