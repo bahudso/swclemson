@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.View.extend({
 	didInsertElement: function() {
 		Ember.$(document).find('div.percentage').each(function() {
-			if ($(this).text() == "90%" || $(this).text() == "80%") {
+			if ($(this).text() == "100%" || $(this).text() == "90%" || $(this).text() == "80%") {
 				$(this).parent('li').css('border-color', 'green');
 				$(this).css('color', 'green');
 				$(this).parent('li').css('background-color', 'rgba(0,155,0,.5)');
