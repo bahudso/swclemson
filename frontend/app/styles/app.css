@@ -25,6 +25,11 @@ ul li img.checkbox {
 	margin: 5px;
 }
 
+ul li a {
+	font-size: 1.5em;
+	color: black;
+}
+
 ul li img.checkbox.center-block {
 	margin: 5px auto;
 }
