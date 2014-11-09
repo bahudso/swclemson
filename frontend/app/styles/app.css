@@ -59,6 +59,10 @@ td.no-match {
 	color: red;
 }
 
-table.table {
+table {
 	display: none;
+}
+
+table th {
+	border-bottom: 1px solid grey;
 }

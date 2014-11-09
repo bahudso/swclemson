@@ -6,14 +6,17 @@ export default Ember.View.extend({
 			if ($(this).text() == "90%" || $(this).text() == "80%") {
 				$(this).parent('li').css('border-color', 'green');
 				$(this).css('color', 'green');
+				$(this).parent('li').css('background-color', 'rgba(0,155,0,.5)');
 			}
 			if ($(this).text() == "70%" || $(this).text() == "60%") {
 				$(this).parent('li').css('border-color', 'orange');
 				$(this).css('color', 'orange');
+				$(this).parent('li').css('background-color', 'rgba(255,165,0,.5)');
 			}
 			if ($(this).text() == "30%" || $(this).text() == "20%" || $(this).text() == "10%" || $(this).text() == "50%" || $(this).text() == "40%") {
 				$(this).parent('li').css('border-color', 'red');
 				$(this).css('color', 'red');
+				$(this).parent('li').css('background-color', 'rgba(255,0,0,.5)');
 			}
 		});
 
