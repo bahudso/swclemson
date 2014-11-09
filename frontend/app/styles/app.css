@@ -2,3 +2,22 @@ html, body {
   margin: 20px;
   padding: 10px;
 }
+
+img#topics {
+    width: 100%;
+    padding: 10px;
+}
+
+ul li {
+	font-size: 1.2em;
+}
+
+ul li img {
+	width: 100px;
+	height: 100px;
+}
+
+div.navbar-header img {
+	width: 100%;
+	padding: 10px 0;
+}

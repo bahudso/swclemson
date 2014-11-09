@@ -1,8 +1,12 @@
+{{link-to 'Back' 'application'}}
+<br>
 <ul class="list-group">
 {{#each leg in model}}
 	<li class="list-group-item panel panel-default">
-		<b>{{link-to leg.name 'legislator' leg}}</b>
 		<div class="pull-right">{{leg.percentage}}%</div>
+		<b>{{link-to leg.name 'legislator' leg.id}}</b>
+		<br><br>
+		<img src="{{leg.img}}"/>
 	</li>
 {{/each}}
 </ul>

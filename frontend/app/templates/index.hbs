@@ -1,4 +1,4 @@
-<h3>Settings</h3>
+<label>Choose your state</label>
 <label>State</label>
 <select id="state" class="form-control">
 	<option value="SC">South Carolina</option>
@@ -53,8 +53,7 @@
 	<option value="WI">Wisconsin</option>
 	<option value="WY">Wyoming</option>
 </select>
-<br>
-<label>View Points</label>
+<img id="topics" src="topics.jpg"/>
 <ul class="list-group">
 	<li id="guns" class="list-group-item panel panel-default">
 		Do you support stricter gun laws?
@@ -92,7 +91,7 @@
 		<button {{action "chooseStance" "healthcare" 0}} class="btn btn-warning center-block">Indifferent</button>
 	</li>
 </ul>
-
+<br>
 {{#link-to 'legislators'}}
-	<button class="btn btn-default">View Legislators</button>
+	<button class="btn btn-success pull-right">View Legislators</button>
 {{/link-to}}
