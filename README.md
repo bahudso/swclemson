@@ -1,3 +1,4 @@
+![alt text](http://i.imgur.com/BhOX9ai.png)
 TrueVote
 =========
 Stay up to date on Congressional issues. TrueVote provides a user friendly service app for potential voters.
@@ -16,3 +17,5 @@ TrueVote is a underdeveloped app that will educate future users about congressio
 ### StartUp Weekend Clemson
 
 This was our team's project for StartUp Weekend Clemson 2014.
+
+![alt text](http://www.google.co.in/entrepreneurs/images/startupweekend/StartupWeekend_Logo_GFE.png)
