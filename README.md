@@ -7,7 +7,7 @@ Stay up to date on Congressional issues. TrueVote provides a user friendly servi
 
 ## Mission
 
-TrueVote provides a user friendly app for potential voters educating users on bills,policies and laws voted into place by congressional officers.
+TrueVote provides a user friendly app for potential voters educating users on bills, policies and laws voted into place by congressional officers.
 
 ## Description
 
