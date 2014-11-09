@@ -3,7 +3,6 @@ import Ember from 'ember';
 export default Ember.View.extend({
 	didInsertElement: function() {
 		Ember.$(document).find('div.percentage').each(function() {
-			console.log($(this).text());
 			if ($(this).text() == "90%" || $(this).text() == "80%") {
 				$(this).parent('li').css('border-color', 'green');
 				$(this).css('color', 'green');
@@ -16,6 +15,11 @@ export default Ember.View.extend({
 				$(this).parent('li').css('border-color', 'red');
 				$(this).css('color', 'red');
 			}
+		});
+
+		Ember.$('a.view-matches').on("click", function() {
+			Ember.$(this).hide();
+			Ember.$(this).parent().parent('li').find('table').show();
 		});
 
 		this._super();

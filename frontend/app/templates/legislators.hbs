@@ -9,6 +9,56 @@
 		<div class="percentage pull-right">{{leg.percentage}}%</div>
 		<br>
 		{{leg.chamber}}
+		<br>
+		<center>{{link-to 'View Matches' class="btn-sm btn-default center view-matches"}}</center>
+		<table class="table table-condensed">
+		<tbody>
+			<thead><tr>
+				<th>Issue</th>
+				<th>Match</th>
+			</tr></thead>
+			<tr>
+				<td>Gun Laws</td>
+				{{#if leg.gun_match}}
+				<td class="match">Match</td>
+				{{else}}
+				<td class="no-match">No Match</td>
+				{{/if}}
+			</tr>
+			<tr>
+				<td>Abortion</td>
+				{{#if leg.ab_match}}
+				<td class="match">Match</td>
+				{{else}}
+				<td class="no-match">No Match</td>
+				{{/if}}
+			</tr>
+			<tr>
+				<td>Internet Regulation</td>
+				{{#if leg.int_match}}
+				<td class="match">Match</td>
+				{{else}}
+				<td class="no-match">No Match</td>
+				{{/if}}
+			</tr>
+			<tr>
+				<td>Marijuana Legalization</td>
+				{{#if leg.mar_match}}
+				<td class="match">Match</td>
+				{{else}}
+				<td class="no-match">No Match</td>
+				{{/if}}
+			</tr>
+			<tr>
+				<td>Healthcare</td>
+				{{#if leg.health_match}}
+				<td class="match">Match</td>
+				{{else}}
+				<td class="no-match">No Match</td>
+				{{/if}}
+			</tr>
+		</tbody>
+		</table>
 	</li>
 {{/each}}
 </ul>

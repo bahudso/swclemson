@@ -49,3 +49,16 @@ div.percentage {
 	margin-top: 80px;
 	font-size: 2em;
 }
+
+td.match {
+	color: green;
+	font-weight: bold;
+}
+
+td.no-match {
+	color: red;
+}
+
+table.table {
+	display: none;
+}
