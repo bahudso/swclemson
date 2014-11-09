@@ -9,9 +9,11 @@ export default Ember.View.extend({
 				$(this).css('color', 'green');
 			}
 			if ($(this).text() == "70%" || $(this).text() == "60%") {
+				$(this).parent('li').css('border-color', 'orange');
 				$(this).css('color', 'orange');
 			}
 			if ($(this).text() == "30%" || $(this).text() == "20%" || $(this).text() == "10%" || $(this).text() == "50%" || $(this).text() == "40%") {
+				$(this).parent('li').css('border-color', 'red');
 				$(this).css('color', 'red');
 			}
 		});
