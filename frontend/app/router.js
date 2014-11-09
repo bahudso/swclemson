@@ -12,8 +12,8 @@ Router.map(function() {
 		this.resource('bills', function() {
 			this.route('bill', {path: ':bill_id'});
 		});
+		this.route('legislators');
 	});
-  this.route('legislators');
 });
 
 export default Router;

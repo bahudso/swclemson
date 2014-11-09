@@ -204,6 +204,9 @@ export default Ember.Route.extend({
 			leg.percentage = (10 - sum) * 10;
 		});
 
-		return legislators;
+		return legislators.sort(function(a, b) {
+        var x = a.percentage; var y = b.percentage;
+        return y - x;
+    });
 	}
 });
