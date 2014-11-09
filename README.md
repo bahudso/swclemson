@@ -14,6 +14,8 @@ TrueVote provides a user friendly app for potential voters educating users on bi
 
 TrueVote is a underdeveloped app that will educate future users about congressional policies and candidates in their district. This Facebook page was created to collect data on projected user consumption.
 
+![alt text](http://i.imgur.com/D8V4bN8.png)
+
 ### StartUp Weekend Clemson
 
 This was our team's project for StartUp Weekend Clemson 2014.
