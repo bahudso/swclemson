@@ -3,10 +3,12 @@
 <ul class="list-group">
 {{#each leg in model}}
 	<li class="list-group-item panel panel-default">
-		<div class="pull-right">{{leg.percentage}}%</div>
 		<b>{{link-to leg.name 'legislator' leg.id}}</b>
-		<br><br>
-		<img src="{{leg.img}}"/>
+		<br>
+		<img {{bind-attr src=leg.img}}/>
+		<div class="percentage pull-right">{{leg.percentage}}%</div>
+		<br>
+		{{leg.chamber}}
 	</li>
 {{/each}}
 </ul>

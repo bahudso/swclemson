@@ -11,8 +11,8 @@ export default Ember.Route.extend({
 		  "marijuana": 1,
 		  "healthcare": -1,
 		  "precentage": 0,
-                  "id": "G000359"
-                  "img": "http://www.maggiesnotebook.com/wp-content/uploads/2013/03/Lindsey_Graham_1.jpg"
+			"id": "G000359",
+			"img": "http://www.maggiesnotebook.com/wp-content/uploads/2013/03/Lindsey_Graham_1.jpg"
 		},
 		{
 		  "name": "Brad Hutto",
