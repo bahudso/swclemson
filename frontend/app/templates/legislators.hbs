@@ -1,7 +1,7 @@
 <ul class="list-group">
 {{#each leg in model}}
 	<li class="list-group-item panel panel-default">
-		<b>{{leg.name}}</b>
+		<b>{{link-to leg.name 'legislator' leg}}</b>
 		<div class="pull-right">{{leg.percentage}}%</div>
 	</li>
 {{/each}}
