@@ -1,0 +1,8 @@
+<ul class="list-group">
+{{#each leg in model}}
+	<li class="list-group-item panel panel-default">
+		<b>{{leg.name}}</b>
+		<div class="pull-right">{{leg.percentage}}%</div>
+	</li>
+{{/each}}
+</ul>
