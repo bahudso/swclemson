@@ -24,7 +24,7 @@ export default Ember.Route.extend({
 		  "healthcare": 1,
 		  "precentage": 0,
 		  "id": "NA",
-                  "img": "http://cdn.southcarolinaradionetwork.com/wp-content/uploads/2014/03/Hutto.jpg"
+                  "img": "http://blogs.villagevoice.com/runninscared/grimmbanner.jpg"
 		},
 		{
 		  "name": "Thomas Ravenel",
@@ -36,7 +36,7 @@ export default Ember.Route.extend({
 		  "healthcare": 0,
 		  "precentage": 0,
                   "id": "NA",
-                  "img": "http://fitsnews.com/wp-content/uploads/2014/02/ravenel1.jpg"
+                  "img": "http://img3.rnkr-static.com/list_img/11897/311897/full/current-jewish-congressmen-u1.jpg"
 		},
 		{
 		  "name": "Victor Kocher",
@@ -48,7 +48,7 @@ export default Ember.Route.extend({
 		  "healthcare": 1,
 		  "precentage": 0,
                   "id": "NA",
-                  "img": "http://www.postandcourier.com/storyimage/CP/20140729/PC1603/140729295/AR/0/AR-140729295.jpg&maxw=400&q=90"
+                  "img": "http://www.wzdm.com/wp-content/uploads/2014/09/9bc3Vincennes-Knox-State-bucshon.jpg"
 		},
 		{
 		  "name": "Tim Scott",
@@ -60,7 +60,7 @@ export default Ember.Route.extend({
 		  "healthcare": 1,
 		  "precentage": 0,
                   "id": "S001184",
-                  "img": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Tim_Scott%2C_official_portrait%2C_113th_Congress.jpg/640px-Tim_Scott%2C_official_portrait%2C_113th_Congress.jpg"
+                  "img": "https://pbs.twimg.com/profile_images/459065424491999233/95J7eb-P.jpeg"
 		},
 		{
 		  "name": "Joyce Dickerson",
@@ -72,7 +72,7 @@ export default Ember.Route.extend({
 		  "healthcare": 1,
 		  "precentage": -1,
                   "id": "NA",
-                  "img": "http://www.gannett-cdn.com/-mm-/7d3ed75b5304d03dc4460c5c20e64c7ea8aa1ccb/c=141-0-1864-2297&r=537&c=0-0-534-712/local/-/media/Greenville/2014/06/10/joycedickerson.jpg"
+                  "img": "http://3.bp.blogspot.com/-y36ACIiOBqc/T8OeJH34roI/AAAAAAAACYs/xhacsbj7NtI/s1600/ConnieMorella-e1337896620433.png"
 		},
 		{
 		  "name": "Jill Bossi",
@@ -96,7 +96,7 @@ export default Ember.Route.extend({
 		  "healthcare": 0,
 		  "precentage": 0,
                   "id": "S000051",
-                  "img": "http://i.usatoday.net/communitymanager/_photos/on-politics/2012/08/25/mark-sanford%20x-large.jpg"
+                  "img": "http://thenypost.files.wordpress.com/2013/08/mark_sanford-300x3001.jpg?w=300&h=300&crop=1"
 		},
 		{
 		  "name": "Joe Wilson",
@@ -156,7 +156,7 @@ export default Ember.Route.extend({
 		  "healthcare": 1,
 		  "precentage": 0,
 		  "id": "NA",
-                  "img": "https://scontent-a-lga.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/1897804_592850240796926_795564411_n.jpg?oh=c8dbd7ef8bfd132b5cf3708003041227&oe=54EFDD9F"
+                  "img": "http://4.bp.blogspot.com/-NRe7MVl9ISI/UNPGT2u11xI/AAAAAAAAAWA/9H5woBAYlRU/s1600/kyrsten-sinema_0.jpg"
 		},
 		{
 		  "name": "Trey Gowdy",
@@ -228,7 +228,7 @@ export default Ember.Route.extend({
 		  "healthcare": 0,
 		  "precentage": 0,
 		  "id": "NA",
-                  "img": "http://teapartycheer.com/wp-content/uploads/2014/05/06.02-Anthony-Culler.jpg"
+                  "img": "http://gosar.house.gov/sites/gosar.house.gov/files/styles/section_front_boilerplate/public/Congressman_Paul_Gosar.jpg?itok=epwdH-NG"
 		},
 		{
 		  "name": "Kevin Umbaugh",
@@ -240,7 +240,7 @@ export default Ember.Route.extend({
 		  "healthcare": 0,
 		  "precentage": 0,
 		  "id": "NA",
-                  "img": "http://ballotpedia.org/wiki/images/thumb/d/df/Kevin_Umbaugh.jpg/480px-Kevin_Umbaugh.jpg"
+                  "img": "https://pbs.twimg.com/profile_images/523143522623311872/PAGe_fYV.jpeg"
 		},
 		{
 		  "name": "Tom Rice",
